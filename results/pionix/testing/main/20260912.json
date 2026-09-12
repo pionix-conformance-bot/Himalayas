@@ -1,0 +1,72 @@
+{
+  "reportFormat": "CTRF",
+  "specVersion": "1.0.0",
+  "results": {
+    "tool": {
+      "name": "Pionix ISO 15118 Conformance Tester"
+    },
+    "summary": {
+      "tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1789218998594,
+      "stop": 1789219004223
+    },
+    "environment": {
+      "appName": "EVerest",
+      "appVersion": "testing/main",
+      "commit": "fdf2ac5415425e0a6af7d30caacf46f2bf9316ee",
+      "branchName": "main",
+      "testEnvironment": "SIL",
+      "osPlatform": "linux",
+      "healthy": true,
+      "buildUrl": "https://github.com/PionixPro/conformance-tester/actions/runs/34695616637"
+    },
+    "extra": {
+      "build": {
+        "status": "passed",
+        "modules": [
+          "Auth",
+          "DCSupplySimulator",
+          "DummyTokenProvider",
+          "DummyTokenValidator",
+          "EnergyManager",
+          "EnergyNode",
+          "Evse15118D20",
+          "EvseManager",
+          "EvseSecurity",
+          "EvseSlac",
+          "IMDSimulator"
+        ]
+      },
+      "integrator": {
+        "id": "pionix",
+        "displayName": "Pionix GmbH"
+      }
+    },
+    "tests": [
+      {
+        "name": "TC_SECC_CMN_VTB_CmSlacParm_001",
+        "status": "passed",
+        "duration": 5600,
+        "suite": [
+          "conformance",
+          "ISO15118-5",
+          "SLAC"
+        ],
+        "tags": [
+          "ISO15118-3",
+          "compliance",
+          "x-iso15118-5",
+          "x-slac",
+          "DC"
+        ],
+        "rawStatus": "PASS",
+        "filePath": "tests/test_secc_cm_slac_parm.py"
+      }
+    ]
+  }
+}
