@@ -1,0 +1,21 @@
+{
+  "ts": "20261009T195608Z",
+  "date": "2026-10-09T19:56:09Z",
+  "pointer": "testing/main",
+  "commit": "ed063b5d908751f9a2b2642f8dc8118979580e82",
+  "summary": null,
+  "cycles": [
+    {
+      "name": "ac-basic",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-basic.yaml",
+      "html": true,
+      "summary": {
+        "tests": 15,
+        "passed": 15,
+        "failed": 0,
+        "skipped": 0
+      }
+    }
+  ]
+}
