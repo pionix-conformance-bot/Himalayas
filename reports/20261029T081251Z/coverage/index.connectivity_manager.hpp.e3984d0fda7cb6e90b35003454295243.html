@@ -1,0 +1,2973 @@
+<!DOCTYPE html>
+<html class="theme-green">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>lib/everest/ocpp/include/ocpp/common/connectivity_manager.hpp - EVerest code coverage -- conformance nightly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="Layout-main">
+      <div class="Layout-main-centered-lg" style="max-width: 1280px;">
+        <div class="d-flex flex-justify-center">
+          <h1>EVerest code coverage -- conformance nightly</h1>
+        </div>
+        <hr class="block-separator"/>
+        <header>
+<div id="summary-index.connectivity_manager.hpp.e3984d0fda7cb6e90b35003454295243.html" class="summary">
+  <div>
+    <table class="legend">
+      <tr>
+        <th scope="row">Directory:</th>
+        <td>./</td>
+      </tr>
+      <tr>
+        <th scope="row">Coverage:</th>
+        <td class="legend">
+          <span class="coverage-low">low: &ge; 0%</span>
+          <span class="coverage-medium">medium: &ge; 75.0%</span>
+          <span class="coverage-high">high: &ge; 90.0%</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <table class="coverage">
+      <tr>
+        <th></th>
+        <th scope="col">Coverage</th>
+        <th scope="col">Exec / Excl / Total</th>
+      </tr>
+      <tr>
+        <th scope="row">Lines:</th>
+        <td class="coverage-low">33.3%</td>
+        <td class="coverage-low">1 / 0 / 3</td>
+      </tr>
+      <tr>
+        <th scope="row">Functions:</th>
+        <td class="coverage-none">0.0%</td>
+        <td class="coverage-none">0 / 1 / 2</td>
+      </tr>
+      <tr>
+        <th scope="row">Branches:</th>
+        <td class="coverage-unknown">-%</td>
+        <td class="coverage-unknown">0 / 0 / 0</td>
+      </tr>
+    </table>
+  </div>
+</div>
+        </header>
+        <hr/>
+        <nav>
+<div class="m-3">
+  <details>
+    <summary>List of functions</summary>
+<div class="Box m-3 functionslist">
+  <div class="Box-header py-2 d-flex sticky">
+    <div role="rowheader" class="color-fg-muted flex-auto min-width-0 col-md-2 sortable sorted-ascending">Function (File:Line)</div>
+    <div role="rowheader" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline sortable">Calls</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2 sortable">Lines</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2 sortable">Branches</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2 sortable">Blocks</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l22">&lt;unknown function 22&gt; (lib/everest/ocpp/include/ocpp/common/connectivity_manager.hpp:22)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="-">excluded</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l126">ocpp::ConnectivityManagerInterface::get_active_network_configuration_slot() const (lib/everest/ocpp/include/ocpp/common/connectivity_manager.hpp:126)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="0">not called</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+  </div>
+</div>  </details>
+</div>
+
+        </nav>
+        <main>
+<div class="Box m-3 file-source">
+  <div class="Box-header d-flex flex-space-between sticky">
+    lib/everest/ocpp/include/ocpp/common/connectivity_manager.hpp
+    <div class="toggle-buttons">
+      <button type="button" class="button_toggle_coveredLine show_coveredLine" value="coveredLine" title="Toggle covered lines">1 covered</button>
+      <button type="button" class="button_toggle_uncoveredLine show_uncoveredLine" value="uncoveredLine" title="Toggle uncovered lines">2 uncovered</button>
+      <button type="button" class="button_toggle_partialCoveredLine show_partialCoveredLine" value="partialCoveredLine" title="Toggle partial covered lines">0 partial covered</button>
+      <button type="button" class="button_toggle_excludedLine show_excludedLine" value="excludedLine" title="Toggle excluded lines">0 excluded</button>
+    </div>
+    <div class="nav">
+      <a class="nav prev" href="index.cistring.hpp.d51cad3772945004e05260ad952797e6.html"></a>
+      <a class="nav index" href="index.html"></a>
+      <a class="nav next" href="index.custom_iterators.hpp.12430bc086d30c4fe0a6cd0abc9f7340.html"></a>
+    </div>
+  </div>
+  <div class="source-table-container">
+    <table class="text-mono text-small">
+      <tr>
+        <th align="right">Line</th>
+        <th align="right">Branch</th>
+        <th align="right">Exec</th>
+        <th align="left" style="width: 100%;">Source</th>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l1" href="#l1">1</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">// SPDX-License-Identifier: Apache-2.0</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l2" href="#l2">2</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">// Copyright Pionix GmbH and Contributors to EVerest</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l3" href="#l3">3</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l4" href="#l4">4</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#pragma once</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l5" href="#l5">5</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l6" href="#l6">6</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;ocpp/common/connectivity_manager_configuration.hpp&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l7" href="#l7">7</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;ocpp/common/websocket/websocket.hpp&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l8" href="#l8">8</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;ocpp/v2/messages/SetNetworkProfile.hpp&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l9" href="#l9">9</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l10" href="#l10">10</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;everest/util/async/monitor.hpp&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l11" href="#l11">11</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l12" href="#l12">12</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;atomic&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l13" href="#l13">13</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;chrono&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l14" href="#l14">14</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;functional&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l15" href="#l15">15</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;future&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l16" href="#l16">16</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;mutex&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l17" href="#l17">17</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;optional&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l18" href="#l18">18</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l19" href="#l19">19</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">namespace ocpp {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l20" href="#l20">20</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l21" href="#l21">21</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \brief The result of a configuration of a network profile.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l22" href="#l22">22</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">8</td>
+        <td class="src  coveredLine show_coveredLine">struct ConfigNetworkResult {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l23" href="#l23">23</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;std::string&gt; interface_address; ///&lt; ip address or interface string</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l24" href="#l24">24</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool success;                                 ///&lt; true if the configuration was successful</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l25" href="#l25">25</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l26" href="#l26">26</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l27" href="#l27">27</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \brief The next configuration slot to dial after the active slot&#39;s attempts were exhausted.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l28" href="#l28">28</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">struct NextSlotSelection {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l29" href="#l29">29</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::int32_t slot; ///&lt; configuration slot to attempt next</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l30" href="#l30">30</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool is_fallback;  ///&lt; true when this is the B10.FR.07 last-successful fallback target</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l31" href="#l31">31</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l32" href="#l32">32</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l33" href="#l33">33</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \brief Decide which configuration slot to dial after the active slot exhausted its attempts.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l34" href="#l34">34</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l35" href="#l35">35</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// Implements OCPP 2.0.1 B10.FR.07: once every entry of the priority list has been tried since the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l36" href="#l36">36</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// last successful connection (\p failed_slots_since_success reached the list size), fall back to</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l37" href="#l37">37</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \p last_successful_slot independent of the priority list and keep reconnecting to it. Otherwise</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l38" href="#l38">38</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// the next entry in the priority list is selected (wrapping around).</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l39" href="#l39">39</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l40" href="#l40">40</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \param priority_slots Ordered configuration slots (highest priority first).</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l41" href="#l41">41</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \param current_slot The slot whose attempts were just exhausted.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l42" href="#l42">42</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \param failed_slots_since_success Number of slots exhausted since the last successful connection,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l43" href="#l43">43</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">///        including \p current_slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l44" href="#l44">44</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \param last_successful_slot Slot of the last successful connection, or std::nullopt if none.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l45" href="#l45">45</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \param in_fallback True if the manager is already reconnecting to the fallback profile.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l46" href="#l46">46</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// \return The next slot to dial, or std::nullopt if \p priority_slots is empty.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l47" href="#l47">47</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">std::optional&lt;NextSlotSelection&gt; select_next_network_slot(const std::vector&lt;std::int32_t&gt;&amp; priority_slots,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l48" href="#l48">48</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                                                          std::int32_t current_slot, int failed_slots_since_success,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l49" href="#l49">49</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                                                          std::optional&lt;std::int32_t&gt; last_successful_slot,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l50" href="#l50">50</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                                                          bool in_fallback);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l51" href="#l51">51</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l52" href="#l52">52</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">using WebsocketConnectionCallback =</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l53" href="#l53">53</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::function&lt;void(int configuration_slot, const ocpp::v2::NetworkConnectionProfile&amp; network_connection_profile,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l54" href="#l54">54</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                       const OcppProtocolVersion version)&gt;;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l55" href="#l55">55</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">using WebsocketConnectionFailedCallback = std::function&lt;void(ConnectionFailedReason reason)&gt;;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l56" href="#l56">56</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">using ConfigureNetworkConnectionProfileCallback = std::function&lt;std::future&lt;ConfigNetworkResult&gt;(</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l57" href="#l57">57</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    const std::int32_t configuration_slot, const ocpp::v2::NetworkConnectionProfile&amp; network_connection_profile)&gt;;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l58" href="#l58">58</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l59" href="#l59">59</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">class ConnectivityManagerInterface {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l60" href="#l60">60</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">public:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l61" href="#l61">61</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual ~ConnectivityManagerInterface() = default;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l62" href="#l62">62</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l63" href="#l63">63</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the \p callback that is called when a message is received from the websocket</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l64" href="#l64">64</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l65" href="#l65">65</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_message_callback(const std::function&lt;void(const std::string&amp; message)&gt;&amp; callback) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l66" href="#l66">66</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l67" href="#l67">67</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the logger \p logging</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l68" href="#l68">68</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l69" href="#l69">69</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_logging(std::shared_ptr&lt;MessageLogging&gt; logging) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l70" href="#l70">70</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l71" href="#l71">71</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the websocket \p authorization_key</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l72" href="#l72">72</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l73" href="#l73">73</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_authorization_key(const std::string&amp; authorization_key) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l74" href="#l74">74</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l75" href="#l75">75</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the websocket \p connection_options</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l76" href="#l76">76</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l77" href="#l77">77</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_connection_options(const WebsocketConnectionOptions&amp; connection_options) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l78" href="#l78">78</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l79" href="#l79">79</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the websocket connection options without triggering a reconnect</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l80" href="#l80">80</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l81" href="#l81">81</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_connection_options_without_reconnect() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l82" href="#l82">82</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l83" href="#l83">83</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Apply the websocket ping interval to a connection immediately.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l84" href="#l84">84</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param ping_interval_s The ping interval in seconds (0 disables pinging)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l85" href="#l85">85</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param pong_timeout_s The pong timeout in seconds</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l86" href="#l86">86</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l87" href="#l87">87</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// Unlike set_websocket_connection_options_without_reconnect(), this takes effect on the current connection</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l88" href="#l88">88</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// instead of only on the next reconnect. Only has an effect while the websocket is connected; while</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l89" href="#l89">89</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// disconnected the interval is applied from the configuration on the next reconnect.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l90" href="#l90">90</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_ping_interval(std::int32_t ping_interval_s, std::int32_t pong_timeout_s) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l91" href="#l91">91</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l92" href="#l92">92</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the \p callback that is called when the websocket is connected.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l93" href="#l93">93</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l94" href="#l94">94</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_connected_callback(WebsocketConnectionCallback callback) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l95" href="#l95">95</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l96" href="#l96">96</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the \p callback that is called when the websocket is disconnected.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l97" href="#l97">97</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l98" href="#l98">98</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_disconnected_callback(WebsocketConnectionCallback callback) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l99" href="#l99">99</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l100" href="#l100">100</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the \p callback that is called when the websocket could not connect with a specific reason</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l101" href="#l101">101</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l102" href="#l102">102</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void set_websocket_connection_failed_callback(WebsocketConnectionFailedCallback callback) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l103" href="#l103">103</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l104" href="#l104">104</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Set the \p callback that is called to configure a network connection profile when none is configured</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l105" href="#l105">105</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l106" href="#l106">106</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l107" href="#l107">107</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    set_configure_network_connection_profile_callback(ConfigureNetworkConnectionProfileCallback callback) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l108" href="#l108">108</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l109" href="#l109">109</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Gets the cached NetworkConnectionProfile based on the given \p configuration_slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l110" href="#l110">110</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// This returns the value from the cached network connection profiles.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l111" href="#l111">111</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return Returns a profile if the slot is found</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l112" href="#l112">112</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual std::optional&lt;ocpp::v2::NetworkConnectionProfile&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l113" href="#l113">113</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    get_network_connection_profile(const std::int32_t configuration_slot) const = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l114" href="#l114">114</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l115" href="#l115">115</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Get the priority of the given configuration slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l116" href="#l116">116</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param configuration_slot   The configuration slot to get the priority from.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l117" href="#l117">117</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return The priority if the configuration slot exists.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l118" href="#l118">118</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l119" href="#l119">119</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual std::optional&lt;std::int32_t&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l120" href="#l120">120</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    get_priority_from_configuration_slot(const std::int32_t configuration_slot) const = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l121" href="#l121">121</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l122" href="#l122">122</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Get the active network configuration slot in use.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l123" href="#l123">123</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return The active slot (or pending slot override) if one is available, std::nullopt if the slot</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l124" href="#l124">124</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///         list is empty or the current priority index would be out of range.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l125" href="#l125">125</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l126" href="#l126">126</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount uncoveredLine show_uncoveredLine">&cross;</td>
+        <td class="src  uncoveredLine show_uncoveredLine">    virtual std::optional&lt;int&gt; get_active_network_configuration_slot() const {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l127" href="#l127">127</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount uncoveredLine show_uncoveredLine">&cross;</td>
+        <td class="src  uncoveredLine show_uncoveredLine">        return std::nullopt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l128" href="#l128">128</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l129" href="#l129">129</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l130" href="#l130">130</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Get a snapshot of the network connection slots sorted by priority.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l131" href="#l131">131</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// Each item in the vector contains the configured configuration slots, where the slot with index 0 has the highest</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l132" href="#l132">132</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// priority. A copy is returned so callers do not observe mid-mutation state through a reference.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l133" href="#l133">133</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @return The network connection slots</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l134" href="#l134">134</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l135" href="#l135">135</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual std::vector&lt;int&gt; get_network_connection_slots() const = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l136" href="#l136">136</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l137" href="#l137">137</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Check if the websocket is connected</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l138" href="#l138">138</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return True is the websocket is connected, else false</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l139" href="#l139">139</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l140" href="#l140">140</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual bool is_websocket_connected() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l141" href="#l141">141</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l142" href="#l142">142</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Get the time the websocket has been disconnected.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l143" href="#l143">143</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @return The time the websocket has been disconnected</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l144" href="#l144">144</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l145" href="#l145">145</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual std::chrono::time_point&lt;std::chrono::steady_clock&gt; get_time_disconnected() const = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l146" href="#l146">146</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l147" href="#l147">147</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Connect to the websocket</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l148" href="#l148">148</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param configuration_slot Optional the network_profile_slot to connect to. std::nullopt will select the slot</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l149" href="#l149">149</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// internally.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l150" href="#l150">150</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l151" href="#l151">151</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void connect(std::optional&lt;std::int32_t&gt; network_profile_slot = std::nullopt) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l152" href="#l152">152</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l153" href="#l153">153</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Disconnect the websocket</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l154" href="#l154">154</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l155" href="#l155">155</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void disconnect() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l156" href="#l156">156</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l157" href="#l157">157</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Permanently suppress the connected/disconnected callbacks.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l158" href="#l158">158</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l159" href="#l159">159</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// Called from the ChargePoint destructor: the websocket delivers these from a deferred thread, so</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l160" href="#l160">160</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// one can be in flight while members are destroyed (use-after-free). Blocks on an in-flight call.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l161" href="#l161">161</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l162" href="#l162">162</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// One-way by design, never call it on the stop()/restart() path: the owner is still entitled to</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l163" href="#l163">163</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// the connection state there.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l164" href="#l164">164</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void disarm_connection_callbacks() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l165" href="#l165">165</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l166" href="#l166">166</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Suppress automatic reconnection without closing the current websocket.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l167" href="#l167">167</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l168" href="#l168">168</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// Unlike disconnect(), this does NOT close the live websocket: it only clears the internal</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l169" href="#l169">169</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// &#34;wants to be connected&#34; intent and cancels any pending reconnect timer. A subsequent close</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l170" href="#l170">170</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// initiated elsewhere (e.g. the CSMS closing the socket, or the regular post-transaction</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l171" href="#l171">171</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// shutdown path) will therefore not trigger an auto-reconnect. Used just before an imminent</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l172" href="#l172">172</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// whole-station reset so that any in-flight messages (e.g. the graceful</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l173" href="#l173">173</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// TransactionEvent(Ended) of an ongoing transaction) can still be flushed on the live</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l174" href="#l174">174</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// connection before it is closed for the reboot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l175" href="#l175">175</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l176" href="#l176">176</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void suppress_reconnect() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l177" href="#l177">177</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l178" href="#l178">178</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief send a \p message over the websocket</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l179" href="#l179">179</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \returns true if the message was sent successfully</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l180" href="#l180">180</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l181" href="#l181">181</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual bool send_to_websocket(const std::string&amp; message) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l182" href="#l182">182</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l183" href="#l183">183</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l184" href="#l184">184</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Can be called when a network is disconnected, for example when an ethernet cable is removed.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l185" href="#l185">185</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l186" href="#l186">186</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// This is introduced because the websocket can take several minutes to timeout when a network interface becomes</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l187" href="#l187">187</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// unavailable, whereas the system can detect this sooner.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l188" href="#l188">188</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l189" href="#l189">189</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param ocpp_interface The interface that is disconnected.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l190" href="#l190">190</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l191" href="#l191">191</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void on_network_disconnected(ocpp::v2::OCPPInterfaceEnum ocpp_interface) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l192" href="#l192">192</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l193" href="#l193">193</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Called when the charging station certificate is changed</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l194" href="#l194">194</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l195" href="#l195">195</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void on_charging_station_certificate_changed() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l196" href="#l196">196</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l197" href="#l197">197</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Confirms the connection is successful so the security profile requirements can be handled</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l198" href="#l198">198</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void confirm_successful_connection() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l199" href="#l199">199</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l200" href="#l200">200</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Reload network connection profiles from NetworkConfiguration DM components into the in-memory cache</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l201" href="#l201">201</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual void reload_network_profiles() = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l202" href="#l202">202</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l203" href="#l203">203</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Write a network connection profile to the device model and refresh the in-memory cache.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l204" href="#l204">204</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// The slot is not added to NetworkConfigurationPriority; the CSMS does that with a SetVariablesRequest (A05, B10).</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l205" href="#l205">205</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param slot The configuration slot to write to</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l206" href="#l206">206</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param profile The profile to write</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l207" href="#l207">207</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param source The source of the change (e.g. &#39;csms&#39;, &#39;internal&#39;)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l208" href="#l208">208</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return true if the profile was written successfully</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l209" href="#l209">209</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    virtual bool set_network_profile(int32_t slot, const ocpp::v2::NetworkConnectionProfile&amp; profile,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l210" href="#l210">210</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                                     const std::string&amp; source) = 0;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l211" href="#l211">211</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l212" href="#l212">212</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l213" href="#l213">213</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">class ConnectivityManager : public ConnectivityManagerInterface {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l214" href="#l214">214</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">private:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l215" href="#l215">215</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Configuration interface used to persist and retrieve network configuration</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l216" href="#l216">216</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ocpp::ConnectivityManagerConfiguration&amp; configuration;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l217" href="#l217">217</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Pointer to the evse security class</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l218" href="#l218">218</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::shared_ptr&lt;EvseSecurity&gt; evse_security;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l219" href="#l219">219</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Pointer to the logger</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l220" href="#l220">220</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::shared_ptr&lt;MessageLogging&gt; logging;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l221" href="#l221">221</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief The share path</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l222" href="#l222">222</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    fs::path share_path;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l223" href="#l223">223</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Pointer to the websocket</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l224" href="#l224">224</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::unique_ptr&lt;Websocket&gt; websocket;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l225" href="#l225">225</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief The message callback</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l226" href="#l226">226</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::function&lt;void(const std::string&amp; message)&gt; message_callback;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l227" href="#l227">227</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Callback that is called when the websocket is connected successfully</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l228" href="#l228">228</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;WebsocketConnectionCallback&gt; websocket_connected_callback;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l229" href="#l229">229</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Callback that is called when the websocket connection is disconnected</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l230" href="#l230">230</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;WebsocketConnectionCallback&gt; websocket_disconnected_callback;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l231" href="#l231">231</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Callback that is called when the websocket could not connect with a specific reason</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l232" href="#l232">232</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;WebsocketConnectionFailedCallback&gt; websocket_connection_failed_callback;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l233" href="#l233">233</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Callback that is called to configure a network connection profile when none is configured</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l234" href="#l234">234</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;ConfigureNetworkConnectionProfileCallback&gt; configure_network_connection_profile_callback;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l235" href="#l235">235</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l236" href="#l236">236</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    Everest::SteadyTimer websocket_timer;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l237" href="#l237">237</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l238" href="#l238">238</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    // Serializes the connected/disconnected callbacks (websocket deferred thread) with</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l239" href="#l239">239</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    // disarm_connection_callbacks() (destroying thread). Disarming is permanent.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l240" href="#l240">240</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::mutex connection_callbacks_mutex;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l241" href="#l241">241</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool connection_callbacks_disarmed{false};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l242" href="#l242">242</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    // Written from the OCPP message-handler thread (suppress_reconnect/disconnect) and read from the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l243" href="#l243">243</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    // websocket callback and websocket_timer threads, so it must be atomic.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l244" href="#l244">244</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::atomic&lt;bool&gt; wants_to_be_connected;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l245" href="#l245">245</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    OcppProtocolVersion connected_ocpp_version;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l246" href="#l246">246</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l247" href="#l247">247</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Mutable shared state, accessed concurrently from the OCPP message-handling thread,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l248" href="#l248">248</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// the websocket callback thread, and the websocket_timer thread. All access goes through the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l249" href="#l249">249</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// monitor handle, which acquires a recursive mutex for the handle&#39;s lifetime.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l250" href="#l250">250</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    struct NetworkProfileCacheState {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l251" href="#l251">251</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Cached NetworkConnectionProfile entries reflecting the per-slot NetworkConfiguration DM variables.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l252" href="#l252">252</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        std::vector&lt;ocpp::v2::SetNetworkProfileRequest&gt; cached_profiles;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l253" href="#l253">253</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Ordered list of configuration slots (highest priority first) derived from NetworkConfigurationPriority.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l254" href="#l254">254</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        std::vector&lt;std::int32_t&gt; slots;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l255" href="#l255">255</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Index into \c slots of the slot currently considered active.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l256" href="#l256">256</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        std::int32_t active_priority{0};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l257" href="#l257">257</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Slot currently being evaluated by \c try_connect_websocket (overrides active_priority if set).</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l258" href="#l258">258</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        std::optional&lt;std::int32_t&gt; pending_configuration_slot;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l259" href="#l259">259</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Last SecurityProfile value observed when pruning invalid profiles from the cache.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l260" href="#l260">260</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        int last_known_security_level{0};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l261" href="#l261">261</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Slot of the last successful connection, used as the B10.FR.07 fallback target.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l262" href="#l262">262</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        std::optional&lt;std::int32_t&gt; last_successful_slot;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l263" href="#l263">263</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Number of slots whose attempts were exhausted since the last successful connection.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l264" href="#l264">264</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        int failed_slots_since_success{0};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l265" href="#l265">265</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// True while reconnecting to the fallback (last-successful) profile after full-list exhaustion.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l266" href="#l266">266</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        bool in_fallback{false};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l267" href="#l267">267</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Consecutive failed reconnect cycles since the last successful connection, used to drive the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l268" href="#l268">268</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// OCPP part 4 section 5.3 backoff between cross-attempt/fallback re-dials. Reset to 0 on success.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l269" href="#l269">269</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        int reconnect_attempts{0};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l270" href="#l270">270</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// Backoff (milliseconds) computed for the most recent reconnect cycle; base that get_reconnect_backoff_ms</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l271" href="#l271">271</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        /// doubles for the next cycle. Reset to 0 on success.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l272" href="#l272">272</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        long reconnect_backoff_ms{0};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l273" href="#l273">273</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    };</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l274" href="#l274">274</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    mutable everest::lib::util::monitor&lt;NetworkProfileCacheState, std::recursive_mutex&gt; m_state;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l275" href="#l275">275</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l276" href="#l276">276</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">public:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l277" href="#l277">277</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ConnectivityManager(ocpp::ConnectivityManagerConfiguration&amp; configuration,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l278" href="#l278">278</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                        std::shared_ptr&lt;EvseSecurity&gt; evse_security, const fs::path&amp; share_path = {});</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l279" href="#l279">279</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l280" href="#l280">280</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void reload_network_profiles() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l281" href="#l281">281</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool set_network_profile(int32_t slot, const ocpp::v2::NetworkConnectionProfile&amp; profile,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l282" href="#l282">282</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                             const std::string&amp; source) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l283" href="#l283">283</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l284" href="#l284">284</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_message_callback(const std::function&lt;void(const std::string&amp; message)&gt;&amp; callback) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l285" href="#l285">285</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_logging(std::shared_ptr&lt;MessageLogging&gt; logging) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l286" href="#l286">286</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_authorization_key(const std::string&amp; authorization_key) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l287" href="#l287">287</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_connection_options(const WebsocketConnectionOptions&amp; connection_options) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l288" href="#l288">288</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_connection_options_without_reconnect() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l289" href="#l289">289</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_ping_interval(std::int32_t ping_interval_s, std::int32_t pong_timeout_s) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l290" href="#l290">290</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_connected_callback(WebsocketConnectionCallback callback) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l291" href="#l291">291</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_disconnected_callback(WebsocketConnectionCallback callback) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l292" href="#l292">292</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_websocket_connection_failed_callback(WebsocketConnectionFailedCallback callback) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l293" href="#l293">293</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void set_configure_network_connection_profile_callback(ConfigureNetworkConnectionProfileCallback callback) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l294" href="#l294">294</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;ocpp::v2::NetworkConnectionProfile&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l295" href="#l295">295</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    get_network_connection_profile(const std::int32_t configuration_slot) const override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l296" href="#l296">296</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;std::int32_t&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l297" href="#l297">297</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    get_priority_from_configuration_slot(const std::int32_t configuration_slot) const override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l298" href="#l298">298</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::vector&lt;int&gt; get_network_connection_slots() const override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l299" href="#l299">299</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool is_websocket_connected() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l300" href="#l300">300</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::chrono::time_point&lt;std::chrono::steady_clock&gt; get_time_disconnected() const override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l301" href="#l301">301</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void connect(std::optional&lt;std::int32_t&gt; network_profile_slot = std::nullopt) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l302" href="#l302">302</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void disconnect() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l303" href="#l303">303</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void disarm_connection_callbacks() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l304" href="#l304">304</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void suppress_reconnect() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l305" href="#l305">305</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool send_to_websocket(const std::string&amp; message) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l306" href="#l306">306</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void on_network_disconnected(ocpp::v2::OCPPInterfaceEnum ocpp_interface) override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l307" href="#l307">307</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void on_charging_station_certificate_changed() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l308" href="#l308">308</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void confirm_successful_connection() override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l309" href="#l309">309</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l310" href="#l310">310</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Removes all connection profiles from the cache that have a security profile lower than the currently</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l311" href="#l311">311</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// connected security profile</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l312" href="#l312">312</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void check_cache_for_invalid_security_profiles();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l313" href="#l313">313</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l314" href="#l314">314</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l315" href="#l315">315</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Get the active network configuration slot in use.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l316" href="#l316">316</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return The active slot (or pending slot override) if one is available, std::nullopt if the slot</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l317" href="#l317">317</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///         list is empty or the current priority index would be out of range.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l318" href="#l318">318</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l319" href="#l319">319</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;int&gt; get_active_network_configuration_slot() const override;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l320" href="#l320">320</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l321" href="#l321">321</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">private:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l322" href="#l322">322</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::atomic&lt;std::chrono::time_point&lt;std::chrono::steady_clock&gt;&gt; time_disconnected{};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l323" href="#l323">323</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l324" href="#l324">324</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Mark \c time_disconnected with steady_clock::now() iff currently unset (zero).</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l325" href="#l325">325</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        Atomic compare-exchange so concurrent disconnect callbacks cannot overwrite the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l326" href="#l326">326</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        first observed disconnect time.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l327" href="#l327">327</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void mark_disconnected_at_now();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l328" href="#l328">328</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l329" href="#l329">329</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Initializes the websocket and tries to connect</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l330" href="#l330">330</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l331" href="#l331">331</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void try_connect_websocket();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l332" href="#l332">332</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l333" href="#l333">333</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Get the current websocket connection options for the given slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l334" href="#l334">334</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// Delegates to configuration and appends the local everest version string.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l335" href="#l335">335</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return the current websocket connection options, or nullopt on failure.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l336" href="#l336">336</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l337" href="#l337">337</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;WebsocketConnectionOptions&gt; get_ws_connection_options(const std::int32_t configuration_slot);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l338" href="#l338">338</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l339" href="#l339">339</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Read the everest version string from the deployed version_information.txt,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l340" href="#l340">340</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        next to the binary. Returns nullopt if the file is missing or contains no usable line.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l341" href="#l341">341</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;std::string&gt; read_everest_version() const;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l342" href="#l342">342</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l343" href="#l343">343</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Calls the configuration callback to get the interface to use, if there is a callback</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l344" href="#l344">344</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param slot The configuration slot to get the interface for</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l345" href="#l345">345</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param profile The network connection profile to get the interface for</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l346" href="#l346">346</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l347" href="#l347">347</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return The network configuration containing the network interface to use, nullptr if the request failed or the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l348" href="#l348">348</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// callback is not configured</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l349" href="#l349">349</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;ConfigNetworkResult&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l350" href="#l350">350</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    handle_configure_network_connection_profile_callback(int slot, const ocpp::v2::NetworkConnectionProfile&amp; profile);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l351" href="#l351">351</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l352" href="#l352">352</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Function invoked when the web socket connected with the \p security_profile</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l353" href="#l353">353</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l354" href="#l354">354</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void on_websocket_connected(OcppProtocolVersion protocol);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l355" href="#l355">355</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l356" href="#l356">356</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Function invoked when the web socket disconnected</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l357" href="#l357">357</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l358" href="#l358">358</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void on_websocket_disconnected();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l359" href="#l359">359</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l360" href="#l360">360</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Function invoked when the web socket stops connecting</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l361" href="#l361">361</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        and does not re-attempt to connect again</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l362" href="#l362">362</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l363" href="#l363">363</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void on_websocket_stopped_connecting(ocpp::WebsocketCloseReason reason);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l364" href="#l364">364</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l365" href="#l365">365</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l366" href="#l366">366</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Get the network configuration slot of the given priority.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l367" href="#l367">367</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param priority The priority to get the configuration slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l368" href="#l368">368</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return The configuration slot if \p priority is a valid index, std::nullopt otherwise.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l369" href="#l369">369</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l370" href="#l370">370</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;int&gt; get_configuration_slot_from_priority(const int priority);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l371" href="#l371">371</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l372" href="#l372">372</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l373" href="#l373">373</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Get the next prioritized network configuration slot of the given configuration slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l374" href="#l374">374</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \param configuration_slot The current configuration slot.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l375" href="#l375">375</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \return The next prioritized configuration slot, or std::nullopt if the slot list is empty.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l376" href="#l376">376</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l377" href="#l377">377</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;int&gt; get_next_configuration_slot(std::int32_t configuration_slot);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l378" href="#l378">378</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l379" href="#l379">379</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Ensure the fallback slot is present in the in-memory working set (slots + cached</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l380" href="#l380">380</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        profiles) so try_connect_websocket() can dial it even when it is absent from the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l381" href="#l381">381</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        current NetworkConfigurationPriority list. Reads the profile from the configuration</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l382" href="#l382">382</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        when not already cached. Caller must hold the state lock.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l383" href="#l383">383</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void ensure_slot_in_working_set(NetworkProfileCacheState&amp; state, std::int32_t slot);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l384" href="#l384">384</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l385" href="#l385">385</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Advance the section 5.3 reconnect-backoff counter for one failed reconnect cycle and return the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l386" href="#l386">386</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        wait before the next re-dial. Reads RetryBackOff* from the connection options of \p slot</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l387" href="#l387">387</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        (these are global device-model values, identical across slots) and mutates</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l388" href="#l388">388</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        \c state.reconnect_attempts / \c state.reconnect_backoff_ms. The returned delay is</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l389" href="#l389">389</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        max(WEBSOCKET_INIT_DELAY, computed backoff) so genuine reconnection waits never dip below</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l390" href="#l390">390</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///        the quick-advance floor. Caller must hold the state lock.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l391" href="#l391">391</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::chrono::milliseconds advance_reconnect_backoff(NetworkProfileCacheState&amp; state, std::int32_t slot);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l392" href="#l392">392</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l393" href="#l393">393</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Cache all the network connection profiles</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l394" href="#l394">394</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void cache_network_connection_profiles();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l395" href="#l395">395</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l396" href="#l396">396</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Log an error if all cached profiles have security_profile 0. Caller must hold the state lock.</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l397" href="#l397">397</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void warn_if_all_security_level_zero_locked(const NetworkProfileCacheState&amp; state) const;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l398" href="#l398">398</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l399" href="#l399">399</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// \brief Removes all NetworkConfiguration DM slots and in-memory cache entries for profiles that have a security</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l400" href="#l400">400</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// profile lower than the currently connected security profile, and persists the updated</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l401" href="#l401">401</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// NetworkConfigurationPriority</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l402" href="#l402">402</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void remove_network_connection_profiles_below_actual_security_profile();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l403" href="#l403">403</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l404" href="#l404">404</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l405" href="#l405">405</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">} // namespace ocpp</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l406" href="#l406">406</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+    </table>
+  </div>
+</div>
+        </main>
+        <hr class="block-separator"/>
+        <footer class="text-center">
+          Created using <a href="http://gcovr.com/en/8.6">GCOVR (Version 8.6)</a>
+          at 2026-10-29 08:12:23
+        </footer>
+      </div>
+    </div>
+  </body>
+
+</html>

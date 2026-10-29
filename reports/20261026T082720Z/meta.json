@@ -1,0 +1,57 @@
+{
+  "ts": "20261026T082720Z",
+  "date": "2026-10-26T08:27:22Z",
+  "pointer": "testing/main",
+  "commit": "dd696165d407d461a724232a4d77fe476a964ef1",
+  "summary": null,
+  "cycles": [
+    {
+      "name": "dc-full-ocpp",
+      "mode": "dc",
+      "config": "config-test-conformance-dc-full-ocpp.yaml",
+      "html": true,
+      "summary": {
+        "tests": 484,
+        "passed": 466,
+        "failed": 17,
+        "skipped": 1
+      }
+    },
+    {
+      "name": "ac-basic",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-basic.yaml",
+      "html": true,
+      "summary": {
+        "tests": 16,
+        "passed": 16,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "ac-full-ocpp",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-full-ocpp.yaml",
+      "html": true,
+      "summary": {
+        "tests": 194,
+        "passed": 191,
+        "failed": 3,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "ac-dc100",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-dc100.yaml",
+      "html": true,
+      "summary": {
+        "tests": 5,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 1
+      }
+    }
+  ]
+}

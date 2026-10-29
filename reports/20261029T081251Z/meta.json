@@ -1,0 +1,191 @@
+{
+  "ts": "20261029T081251Z",
+  "date": "2026-10-29T08:17:41Z",
+  "pointer": "testing/main",
+  "commit": "40182e4fba0b8b577998f7f3c606af99e3ddd672",
+  "summary": null,
+  "cycles": [
+    {
+      "name": "dc-full-ocpp",
+      "mode": "dc",
+      "config": "config-test-conformance-dc-full-ocpp.yaml",
+      "html": true,
+      "summary": {
+        "tests": 484,
+        "passed": 466,
+        "failed": 17,
+        "skipped": 1
+      }
+    },
+    {
+      "name": "ac-basic",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-basic.yaml",
+      "html": true,
+      "summary": {
+        "tests": 16,
+        "passed": 16,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "ac-full-ocpp",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-full-ocpp.yaml",
+      "html": true,
+      "summary": {
+        "tests": 194,
+        "passed": 191,
+        "failed": 3,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "ac-dc100",
+      "mode": "ac",
+      "config": "config-test-conformance-ac-dc100.yaml",
+      "html": true,
+      "summary": {
+        "tests": 5,
+        "passed": 3,
+        "failed": 1,
+        "skipped": 1
+      }
+    }
+  ],
+  "coverage": {
+    "total": {
+      "files": 717,
+      "line_covered": 26191,
+      "line_total": 70388,
+      "function_covered": 3640,
+      "function_total": 8789,
+      "line_pct": 37.2,
+      "function_pct": 41.4
+    },
+    "components": [
+      {
+        "files": 40,
+        "line_covered": 3666,
+        "line_total": 5464,
+        "function_covered": 393,
+        "function_total": 533,
+        "line_pct": 67.1,
+        "function_pct": 73.7,
+        "name": "EvseManager",
+        "in_total": true
+      },
+      {
+        "files": 19,
+        "line_covered": 972,
+        "line_total": 2249,
+        "function_covered": 116,
+        "function_total": 208,
+        "line_pct": 43.2,
+        "function_pct": 55.8,
+        "name": "Evse15118D20 (module)",
+        "in_total": true
+      },
+      {
+        "files": 47,
+        "line_covered": 1292,
+        "line_total": 1840,
+        "function_covered": 183,
+        "function_total": 247,
+        "line_pct": 70.2,
+        "function_pct": 74.1,
+        "name": "libiso15118 DIN 70121",
+        "in_total": true
+      },
+      {
+        "files": 73,
+        "line_covered": 2349,
+        "line_total": 3743,
+        "function_covered": 297,
+        "function_total": 415,
+        "line_pct": 62.8,
+        "function_pct": 71.6,
+        "name": "libiso15118 ISO 15118-2",
+        "in_total": true
+      },
+      {
+        "files": 104,
+        "line_covered": 2917,
+        "line_total": 9615,
+        "function_covered": 382,
+        "function_total": 1068,
+        "line_pct": 30.3,
+        "function_pct": 35.8,
+        "name": "libiso15118 ISO 15118-20",
+        "in_total": true
+      },
+      {
+        "files": 47,
+        "line_covered": 1932,
+        "line_total": 2868,
+        "function_covered": 306,
+        "function_total": 415,
+        "line_pct": 67.4,
+        "function_pct": 73.7,
+        "name": "libiso15118 common",
+        "in_total": true
+      },
+      {
+        "files": 53,
+        "line_covered": 1713,
+        "line_total": 3829,
+        "function_covered": 355,
+        "function_total": 690,
+        "line_pct": 44.7,
+        "function_pct": 51.4,
+        "name": "EvseSlac + libslac",
+        "in_total": true
+      },
+      {
+        "files": 281,
+        "line_covered": 9245,
+        "line_total": 35550,
+        "function_covered": 1307,
+        "function_total": 4646,
+        "line_pct": 26,
+        "function_pct": 28.1,
+        "name": "OCPPmulti + libocpp 2.x",
+        "in_total": true
+      },
+      {
+        "files": 22,
+        "line_covered": 963,
+        "line_total": 3010,
+        "function_covered": 131,
+        "function_total": 323,
+        "line_pct": 32,
+        "function_pct": 40.6,
+        "name": "EvseSecurity + evse_security",
+        "in_total": true
+      },
+      {
+        "files": 12,
+        "line_covered": 536,
+        "line_total": 1348,
+        "function_covered": 83,
+        "function_total": 143,
+        "line_pct": 39.8,
+        "function_pct": 58,
+        "name": "Auth",
+        "in_total": true
+      },
+      {
+        "files": 19,
+        "line_covered": 606,
+        "line_total": 872,
+        "function_covered": 87,
+        "function_total": 101,
+        "line_pct": 69.5,
+        "function_pct": 86.1,
+        "name": "Energy management",
+        "in_total": true
+      }
+    ]
+  }
+}

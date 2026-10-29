@@ -1,0 +1,308 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-29 08:12 UTC",
+  "everest_sha": "40182e4fba0b8b577998f7f3c606af99e3ddd672",
+  "configs": [
+    "config-test-conformance-dc-full-ocpp.yaml",
+    "config-test-conformance-ac-basic.yaml",
+    "config-test-conformance-ac-full-ocpp.yaml",
+    "config-test-conformance-ac-dc100.yaml"
+  ],
+  "gcovr": "gcovr 8.6",
+  "scope": "all rig cycles of the run combined",
+  "total": {
+    "files": 717,
+    "line_covered": 26191,
+    "line_total": 70388,
+    "function_covered": 3640,
+    "function_total": 8789,
+    "line_pct": 37.2,
+    "function_pct": 41.4
+  },
+  "components": [
+    {
+      "files": 40,
+      "line_covered": 3666,
+      "line_total": 5464,
+      "function_covered": 393,
+      "function_total": 533,
+      "line_pct": 67.1,
+      "function_pct": 73.7,
+      "name": "EvseManager",
+      "in_total": true
+    },
+    {
+      "files": 19,
+      "line_covered": 972,
+      "line_total": 2249,
+      "function_covered": 116,
+      "function_total": 208,
+      "line_pct": 43.2,
+      "function_pct": 55.8,
+      "name": "Evse15118D20 (module)",
+      "in_total": true
+    },
+    {
+      "files": 47,
+      "line_covered": 1292,
+      "line_total": 1840,
+      "function_covered": 183,
+      "function_total": 247,
+      "line_pct": 70.2,
+      "function_pct": 74.1,
+      "name": "libiso15118 DIN 70121",
+      "in_total": true
+    },
+    {
+      "files": 73,
+      "line_covered": 2349,
+      "line_total": 3743,
+      "function_covered": 297,
+      "function_total": 415,
+      "line_pct": 62.8,
+      "function_pct": 71.6,
+      "name": "libiso15118 ISO 15118-2",
+      "in_total": true
+    },
+    {
+      "files": 104,
+      "line_covered": 2917,
+      "line_total": 9615,
+      "function_covered": 382,
+      "function_total": 1068,
+      "line_pct": 30.3,
+      "function_pct": 35.8,
+      "name": "libiso15118 ISO 15118-20",
+      "in_total": true
+    },
+    {
+      "files": 47,
+      "line_covered": 1932,
+      "line_total": 2868,
+      "function_covered": 306,
+      "function_total": 415,
+      "line_pct": 67.4,
+      "function_pct": 73.7,
+      "name": "libiso15118 common",
+      "in_total": true
+    },
+    {
+      "files": 53,
+      "line_covered": 1713,
+      "line_total": 3829,
+      "function_covered": 355,
+      "function_total": 690,
+      "line_pct": 44.7,
+      "function_pct": 51.4,
+      "name": "EvseSlac + libslac",
+      "in_total": true
+    },
+    {
+      "files": 106,
+      "line_covered": 0,
+      "line_total": 12676,
+      "function_covered": 0,
+      "function_total": 1885,
+      "line_pct": 0.0,
+      "function_pct": 0.0,
+      "name": "libocpp 1.6",
+      "in_total": false
+    },
+    {
+      "files": 281,
+      "line_covered": 9245,
+      "line_total": 35550,
+      "function_covered": 1307,
+      "function_total": 4646,
+      "line_pct": 26.0,
+      "function_pct": 28.1,
+      "name": "OCPPmulti + libocpp 2.x",
+      "in_total": true
+    },
+    {
+      "files": 22,
+      "line_covered": 963,
+      "line_total": 3010,
+      "function_covered": 131,
+      "function_total": 323,
+      "line_pct": 32.0,
+      "function_pct": 40.6,
+      "name": "EvseSecurity + evse_security",
+      "in_total": true
+    },
+    {
+      "files": 12,
+      "line_covered": 536,
+      "line_total": 1348,
+      "function_covered": 83,
+      "function_total": 143,
+      "line_pct": 39.8,
+      "function_pct": 58.0,
+      "name": "Auth",
+      "in_total": true
+    },
+    {
+      "files": 19,
+      "line_covered": 606,
+      "line_total": 872,
+      "function_covered": 87,
+      "function_total": 101,
+      "line_pct": 69.5,
+      "function_pct": 86.1,
+      "name": "Energy management",
+      "in_total": true
+    },
+    {
+      "files": 37,
+      "line_covered": 10039,
+      "line_total": 112399,
+      "function_covered": 536,
+      "function_total": 2152,
+      "line_pct": 8.9,
+      "function_pct": 24.9,
+      "name": "EXI codecs (cbv2g)",
+      "in_total": false
+    },
+    {
+      "files": 64,
+      "line_covered": 2376,
+      "line_total": 8420,
+      "function_covered": 300,
+      "function_total": 975,
+      "line_pct": 28.2,
+      "function_pct": 30.8,
+      "name": "Framework",
+      "in_total": false
+    },
+    {
+      "files": 38,
+      "line_covered": 446,
+      "line_total": 975,
+      "function_covered": 99,
+      "function_total": 160,
+      "line_pct": 45.7,
+      "function_pct": 61.9,
+      "name": "Rig: simulators, API bridges, test modules",
+      "in_total": false
+    },
+    {
+      "files": 237,
+      "line_covered": 3323,
+      "line_total": 25934,
+      "function_covered": 734,
+      "function_total": 4493,
+      "line_pct": 12.8,
+      "function_pct": 16.3,
+      "name": "Other EVerest code",
+      "in_total": false
+    }
+  ],
+  "gaps": [
+    {
+      "file": "lib/everest/ocpp/lib/ocpp/v2/ocpp_types.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 3150,
+      "line_total": 3742,
+      "line_pct": 15.8
+    },
+    {
+      "file": "lib/everest/ocpp/lib/ocpp/v2/ocpp_enums.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 1688,
+      "line_total": 2078,
+      "line_pct": 18.8
+    },
+    {
+      "file": "lib/everest/ocpp/include/ocpp/common/call_types.hpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 1156,
+      "line_total": 1379,
+      "line_pct": 16.2
+    },
+    {
+      "file": "lib/everest/ocpp_module_common/src/conversions.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 947,
+      "line_total": 1220,
+      "line_pct": 22.4
+    },
+    {
+      "file": "lib/everest/evse_security/lib/evse_security/evse_security.cpp",
+      "component": "EvseSecurity + evse_security",
+      "lines_missed": 822,
+      "line_total": 1188,
+      "line_pct": 30.8
+    },
+    {
+      "file": "modules/EVSE/OCPPmulti/generic_ocpp.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 816,
+      "line_total": 1442,
+      "line_pct": 43.4
+    },
+    {
+      "file": "lib/everest/ocpp/include/ocpp/common/message_queue.hpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 753,
+      "line_total": 993,
+      "line_pct": 24.2
+    },
+    {
+      "file": "lib/everest/ocpp/include/ocpp/common/types.hpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 727,
+      "line_total": 734,
+      "line_pct": 1.0
+    },
+    {
+      "file": "modules/EVSE/OCPPmulti/v16_chargepoint.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 685,
+      "line_total": 685,
+      "line_pct": 0.0
+    },
+    {
+      "file": "lib/everest/ocpp/lib/ocpp/v21/functional_blocks/der_control.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 652,
+      "line_total": 652,
+      "line_pct": 0.0
+    },
+    {
+      "file": "lib/everest/ocpp/lib/ocpp/common/types.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 627,
+      "line_total": 684,
+      "line_pct": 8.3
+    },
+    {
+      "file": "lib/everest/iso15118/src/iso15118/message/ac_der_sae_charge_loop.cpp",
+      "component": "libiso15118 ISO 15118-20",
+      "lines_missed": 594,
+      "line_total": 594,
+      "line_pct": 0.0
+    },
+    {
+      "file": "lib/everest/ocpp/lib/ocpp/v2/init_device_model_db.cpp",
+      "component": "OCPPmulti + libocpp 2.x",
+      "lines_missed": 544,
+      "line_total": 794,
+      "line_pct": 31.5
+    },
+    {
+      "file": "modules/EVSE/EvseManager/EvseManager.cpp",
+      "component": "EvseManager",
+      "lines_missed": 530,
+      "line_total": 1749,
+      "line_pct": 69.7
+    },
+    {
+      "file": "lib/everest/slac/src/slac_fsm.cpp",
+      "component": "EvseSlac + libslac",
+      "lines_missed": 525,
+      "line_total": 583,
+      "line_pct": 9.9
+    }
+  ],
+  "html": "coverage/index.html"
+}

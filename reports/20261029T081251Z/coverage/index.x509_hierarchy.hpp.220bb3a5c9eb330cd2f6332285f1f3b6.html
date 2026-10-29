@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html class="theme-green">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp - EVerest code coverage -- conformance nightly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="Layout-main">
+      <div class="Layout-main-centered-lg" style="max-width: 1280px;">
+        <div class="d-flex flex-justify-center">
+          <h1>EVerest code coverage -- conformance nightly</h1>
+        </div>
+        <hr class="block-separator"/>
+        <header>
+<div id="summary-index.x509_hierarchy.hpp.220bb3a5c9eb330cd2f6332285f1f3b6.html" class="summary">
+  <div>
+    <table class="legend">
+      <tr>
+        <th scope="row">Directory:</th>
+        <td>./</td>
+      </tr>
+      <tr>
+        <th scope="row">Coverage:</th>
+        <td class="legend">
+          <span class="coverage-low">low: &ge; 0%</span>
+          <span class="coverage-medium">medium: &ge; 75.0%</span>
+          <span class="coverage-high">high: &ge; 90.0%</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <table class="coverage">
+      <tr>
+        <th></th>
+        <th scope="col">Coverage</th>
+        <th scope="col">Exec / Excl / Total</th>
+      </tr>
+      <tr>
+        <th scope="row">Lines:</th>
+        <td class="coverage-low">61.1%</td>
+        <td class="coverage-low">58 / 0 / 95</td>
+      </tr>
+      <tr>
+        <th scope="row">Functions:</th>
+        <td class="coverage-low">66.7%</td>
+        <td class="coverage-low">8 / 1 / 13</td>
+      </tr>
+      <tr>
+        <th scope="row">Branches:</th>
+        <td class="coverage-low">43.4%</td>
+        <td class="coverage-low">59 / 0 / 136</td>
+      </tr>
+    </table>
+  </div>
+</div>
+        </header>
+        <hr/>
+        <nav>
+<div class="m-3">
+  <details>
+    <summary>List of functions</summary>
+<div class="Box m-3 functionslist">
+  <div class="Box-header py-2 d-flex sticky">
+    <div role="rowheader" class="color-fg-muted flex-auto min-width-0 col-md-2 sortable sorted-ascending">Function (File:Line)</div>
+    <div role="rowheader" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline sortable">Calls</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2 sortable">Lines</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2 sortable">Branches</div>
+    <div role="rowheader" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2 sortable">Blocks</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l41">&lt;unknown function 41&gt; (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:41)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="-">excluded</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l135">evse_security::X509CertificateHierarchy evse_security::X509CertificateHierarchy::build_hierarchy&lt;std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;, std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt; &gt;(std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;, std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:135)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="213">called 213 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">50.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">83.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l142">evse_security::X509CertificateHierarchy::build_hierarchy&lt;std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;, std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt; &gt;(std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;, std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;)::{lambda(evse_security::X509Wrapper&amp;)#1}::operator()(evse_security::X509Wrapper&amp;) const (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:142)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="638">called 638 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l142">evse_security::X509CertificateHierarchy::build_hierarchy&lt;std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;, std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt; &gt;(std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;, std::vector&lt;evse_security::X509Wrapper, std::allocator&lt;evse_security::X509Wrapper&gt; &gt;)::{lambda(evse_security::X509Wrapper&amp;)#2}::operator()(evse_security::X509Wrapper&amp;) const (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:142)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="983">called 983 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">-%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="486">called 486 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">60.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">37.5%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">56.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="0">not called</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="66">called 66 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">75.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">89.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="0">not called</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="435">called 435 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">75.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">89.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="1340">called 1340 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">90.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">81.2%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">85.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l88">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:88)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="277">called 277 times</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">100.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">75.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">89.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l117">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}, evse_security::X509Node const&amp;, int) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:117)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="0">not called</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+  </div>
+  <div class="Box-row Box-row--focus-gray py-2 d-flex">
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 col-md-2"><a href="#l117">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}, evse_security::X509Node const&amp;, int) (lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp:117)</a>    </div>
+    <div role="gridcell" class="color-fg-muted flex-auto min-width-0 d-flex flex-justify-end flex-wrap flex-items-baseline" data-sort="0">not called</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+    <div role="gridcell" class="color-fg-muted d-flex flex-justify-end flex-wrap col-2">0.0%</div>
+  </div>
+</div>  </details>
+</div>
+
+        </nav>
+        <main>
+<div class="Box m-3 file-source">
+  <div class="Box-header d-flex flex-space-between sticky">
+    lib/everest/evse_security/include/evse_security/certificate/x509_hierarchy.hpp
+    <div class="toggle-buttons">
+      <button type="button" class="button_toggle_coveredLine show_coveredLine" value="coveredLine" title="Toggle covered lines">45 covered</button>
+      <button type="button" class="button_toggle_uncoveredLine show_uncoveredLine" value="uncoveredLine" title="Toggle uncovered lines">0 uncovered</button>
+      <button type="button" class="button_toggle_partialCoveredLine show_partialCoveredLine" value="partialCoveredLine" title="Toggle partial covered lines">13 partial covered</button>
+      <button type="button" class="button_toggle_excludedLine show_excludedLine" value="excludedLine" title="Toggle excluded lines">0 excluded</button>
+    </div>
+    <div class="nav">
+      <a class="nav prev" href="index.x509_bundle.hpp.206b176b1d259f660f3ab9668bf72138.html"></a>
+      <a class="nav index" href="index.html"></a>
+      <a class="nav next" href="index.x509_wrapper.hpp.1d645c8b41d469b8b09a940f78573fb7.html"></a>
+    </div>
+  </div>
+  <div class="source-table-container">
+    <table class="text-mono text-small">
+      <tr>
+        <th align="right">Line</th>
+        <th align="right">Branch</th>
+        <th align="right">Exec</th>
+        <th align="left" style="width: 100%;">Source</th>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l1" href="#l1">1</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">// SPDX-License-Identifier: Apache-2.0</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l2" href="#l2">2</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">// Copyright Pionix GmbH and Contributors to EVerest</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l3" href="#l3">3</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#pragma once</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l4" href="#l4">4</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l5" href="#l5">5</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;algorithm&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l6" href="#l6">6</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;queue&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l7" href="#l7">7</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l8" href="#l8">8</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#include &lt;evse_security/certificate/x509_wrapper.hpp&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l9" href="#l9">9</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l10" href="#l10">10</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">namespace evse_security {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l11" href="#l11">11</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l12" href="#l12">12</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">class NoCertificateFound : public std::runtime_error {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l13" href="#l13">13</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">public:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l14" href="#l14">14</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    using std::runtime_error::runtime_error;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l15" href="#l15">15</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l16" href="#l16">16</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l17" href="#l17">17</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">class InvalidStateException : public std::runtime_error {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l18" href="#l18">18</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">public:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l19" href="#l19">19</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    using std::runtime_error::runtime_error;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l20" href="#l20">20</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l21" href="#l21">21</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l22" href="#l22">22</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">struct NodeState {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l23" href="#l23">23</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::uint32_t is_selfsigned : 1;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l24" href="#l24">24</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::uint32_t is_orphan : 1; // 0 means temporary orphan, 1 is permanent orphan, no relevance if it is self-signed</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l25" href="#l25">25</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l26" href="#l26">26</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l27" href="#l27">27</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">struct X509Node {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l28" href="#l28">28</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    NodeState state;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l29" href="#l29">29</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l30" href="#l30">30</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    X509Wrapper certificate; ///&lt; Certificate that we hold</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l31" href="#l31">31</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;CertificateHashData&gt;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l32" href="#l32">32</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        hash; ///&lt; Precomputed certificate hash, in case of an orphan certificate it might not be set</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l33" href="#l33">33</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l34" href="#l34">34</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    X509Wrapper issuer; ///&lt; Issuer of this certificate, can be == with certificate if we are a root</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l35" href="#l35">35</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::vector&lt;X509Node&gt; children;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l36" href="#l36">36</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l37" href="#l37">37</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l38" href="#l38">38</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// @brief Utility class that is able to build a immutable certificate hierarchy</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l39" href="#l39">39</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// with a  list of self-signed root certificates and their respective sub-certificates</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l40" href="#l40">40</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">/// Note: non self-signed roots and cross-signed certificates are not supported now</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l41" href="#l41">41</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">1118</td>
+        <td class="src  coveredLine show_coveredLine">class X509CertificateHierarchy {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l42" href="#l42">42</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">public:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l43" href="#l43">43</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    const std::vector&lt;X509Node&gt;&amp; get_hierarchy() const {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l44" href="#l44">44</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        return hierarchy;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l45" href="#l45">45</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l46" href="#l46">46</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l47" href="#l47">47</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Checks if the provided certificate is a self-signed root CA certificate</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l48" href="#l48">48</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// contained in our hierarchy</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l49" href="#l49">49</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool is_internal_root(const X509Wrapper&amp; certificate) const;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l50" href="#l50">50</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l51" href="#l51">51</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Collects all the descendants of the provided certificate, in the order</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l52" href="#l52">52</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// from the root towards the leaf (ROOT-&gt;SUBCA1-&gt;SUBCA2-&gt;LEAF)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l53" href="#l53">53</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// NOTE: this can be a problem when returning certificates to the CSMS that can</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l54" href="#l54">54</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// require to have an order from the leaf to the root, case in which the descendants</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l55" href="#l55">55</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// have to be reverse iterated</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l56" href="#l56">56</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    ///</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l57" href="#l57">57</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @param top Certificate that issued the descendants</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l58" href="#l58">58</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::vector&lt;X509Wrapper&gt; collect_descendants(const X509Wrapper&amp; top);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l59" href="#l59">59</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l60" href="#l60">60</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Collects all the top certificates of the provided leaf, in the</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l61" href="#l61">61</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// order from the leaf towards the top (LEAF-&gt;SUBCA2-&gt;SUBCA1)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l62" href="#l62">62</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @param leaf Leaf certificate for which we collect the top certificates</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l63" href="#l63">63</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::vector&lt;X509Wrapper&gt; collect_top(const X509Wrapper&amp; leaf);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l64" href="#l64">64</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l65" href="#l65">65</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Obtains the hash data of the certificate, finding its issuer if needed</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l66" href="#l66">66</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @return True if a hash could be found, false otherwise</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l67" href="#l67">67</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool get_certificate_hash(const X509Wrapper&amp; certificate, CertificateHashData&amp; out_hash);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l68" href="#l68">68</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l69" href="#l69">69</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief returns true if we contain a certificate with the following hash</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l70" href="#l70">70</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    bool contains_certificate_hash(const CertificateHashData&amp; hash, bool case_insensitive_comparison);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l71" href="#l71">71</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l72" href="#l72">72</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Searches for the root of the provided leaf, returning an empty optional if none was found</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l73" href="#l73">73</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;X509Wrapper&gt; find_certificate_root(const X509Wrapper&amp; leaf);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l74" href="#l74">74</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l75" href="#l75">75</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Searches for the provided hash, returning an empty optional if none was found</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l76" href="#l76">76</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;X509Wrapper&gt; find_certificate(const CertificateHashData&amp; hash,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l77" href="#l77">77</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                                                bool case_insensitive_comparison = false);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l78" href="#l78">78</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l79" href="#l79">79</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Searches for all the certificates with the provided hash, throwing a NoCertificateFound</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l80" href="#l80">80</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    // if none were found. Can be useful when we have SUB-CAs in multiple bundles</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l81" href="#l81">81</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::vector&lt;X509Wrapper&gt; find_certificates_multi(const CertificateHashData&amp; hash,</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l82" href="#l82">82</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                                                     bool case_insensitive_comparison = false);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l83" href="#l83">83</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l84" href="#l84">84</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::string to_debug_string();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l85" href="#l85">85</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l86" href="#l86">86</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Breadth-first iteration through all the hierarchy of</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l87" href="#l87">87</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// certificates. Will break when the function returns false</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l88" href="#l88">88</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">2604</td>
+        <td class="src  coveredLine show_coveredLine">    template &lt;typename function&gt; void for_each(function func) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l89" href="#l89">89</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">2604</td>
+        <td class="src  coveredLine show_coveredLine">        std::queue&lt;std::reference_wrapper&lt;X509Node&gt;&gt; queue;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l90" href="#l90">90</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">9/14</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 1204 times.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 114 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 66 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 1562 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 435 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 3357 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 515 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 1107 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 277 times.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">8637</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">        for (auto&amp; root : hierarchy) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l91" href="#l91">91</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            // Process roots</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l92" href="#l92">92</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">12/28</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 1204 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 718 times.</div>
+              <div class="takenBranch">&check; Branch 4 taken 486 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 114 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 114 times.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 1562 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 1562 times.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 3357 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 2532 times.</div>
+              <div class="takenBranch">&check; Branch 4 taken 825 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 1107 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 1107 times.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">7344</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">            if (!func(root)) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l93" href="#l93">93</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                return;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l94" href="#l94">94</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l95" href="#l95">95</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l96" href="#l96">96</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">10/14</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 16 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 718 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 114 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 114 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 483 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 1562 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 847 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 2532 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 962 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 1107 times.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">8455</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">            for (auto&amp; child : root.children) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l97" href="#l97">97</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">2422</td>
+        <td class="src  coveredLine show_coveredLine">                queue.push(child); // NOLINT(modernize-use-emplace)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l98" href="#l98">98</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l99" href="#l99">99</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l100" href="#l100">100</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l101" href="#l101">101</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">5/14</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 212 times.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 944 times.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 247 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 396 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 341 times.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">2140</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">        while (!queue.empty()) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l102" href="#l102">102</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            X509Node&amp; top = queue.front();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l103" href="#l103">103</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            queue.pop();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l104" href="#l104">104</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l105" href="#l105">105</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            // Process node</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l106" href="#l106">106</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">12/28</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 212 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 146 times.</div>
+              <div class="takenBranch">&check; Branch 4 taken 66 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 3 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 944 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 509 times.</div>
+              <div class="takenBranch">&check; Branch 4 taken 435 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 247 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 128 times.</div>
+              <div class="takenBranch">&check; Branch 4 taken 119 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 1 taken 341 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 3 taken 64 times.</div>
+              <div class="takenBranch">&check; Branch 4 taken 277 times.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">1744</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">            if (!func(top)) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l107" href="#l107">107</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                return;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l108" href="#l108">108</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l109" href="#l109">109</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l110" href="#l110">110</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">7/14</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::collect_descendants(evse_security::X509Wrapper const&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::contains_certificate_hash(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificate(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 176 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 146 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::find_certificates_multi(evse_security::CertificateHashData const&amp;, bool)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::get_certificate_hash(evse_security::X509Wrapper const&amp;, evse_security::CertificateHashData&amp;)::{lambda(evse_security::X509Node const&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 539 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 509 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::insert(evse_security::X509Wrapper&amp;&amp;)::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="takenBranch">&check; Branch 1 taken 128 times.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each&lt;evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}&gt;(evse_security::X509CertificateHierarchy::prune()::{lambda(evse_security::X509Node&amp;)#1}):</div>
+              <div class="takenBranch">&check; Branch 0 taken 64 times.</div>
+              <div class="takenBranch">&check; Branch 1 taken 64 times.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">1626</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">            for (auto&amp; child : top.children) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l111" href="#l111">111</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">779</td>
+        <td class="src  coveredLine show_coveredLine">                queue.push(child); // NOLINT(modernize-use-emplace)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l112" href="#l112">112</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l113" href="#l113">113</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l114" href="#l114">114</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l115" href="#l115">115</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l116" href="#l116">116</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Depth-first descendant iteration</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l117" href="#l117">117</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">0/4</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">489</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">    template &lt;typename function&gt; static void for_each_descendant(function func, const X509Node&amp; node, int depth = 0) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l118" href="#l118">118</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">0/4</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">489</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">        if (node.children.empty()) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l119" href="#l119">119</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            return;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l120" href="#l120">120</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l121" href="#l121">121</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l122" href="#l122">122</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">0/4</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">1016</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">        for (const auto&amp; child : node.children) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l123" href="#l123">123</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">152</td>
+        <td class="src  coveredLine show_coveredLine">            func(child, depth);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l124" href="#l124">124</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l125" href="#l125">125</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">0/4</summary>
+            <div class="linebranchContents">
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#1}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+              <div class="functionName">void evse_security::X509CertificateHierarchy::for_each_descendant&lt;evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}&gt;(evse_security::EvseSecurity::get_installed_certificates(std::vector&lt;evse_security::CertificateType, std::allocator&lt;evse_security::CertificateType&gt; &gt; const&amp;)::{lambda(evse_security::X509Node const&amp;, int)#2}, evse_security::X509Node const&amp;, int):</div>
+              <div class="notTakenBranch">&cross; Branch 0 not taken.</div>
+              <div class="notTakenBranch">&cross; Branch 1 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">527</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">            if (!child.children.empty()) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l126" href="#l126">126</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">326</td>
+        <td class="src  coveredLine show_coveredLine">                for_each_descendant(func, child, (depth + 1));</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l127" href="#l127">127</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">            }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l128" href="#l128">128</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l129" href="#l129">129</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l130" href="#l130">130</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l131" href="#l131">131</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Builds a proper certificate hierarchy from the provided certificates. The</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l132" href="#l132">132</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// hierarchy can be incomplete, in case orphan certificates are present in the list</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l133" href="#l133">133</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    static X509CertificateHierarchy build_hierarchy(std::vector&lt;X509Wrapper&gt;&amp; certificates);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l134" href="#l134">134</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l135" href="#l135">135</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">1/2</summary>
+            <div class="linebranchContents">
+              <div class="takenBranch">&check; Branch 1 taken 213 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">213</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">    template &lt;typename... Args&gt; static X509CertificateHierarchy build_hierarchy(Args... certificates) {</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l136" href="#l136">136</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        X509CertificateHierarchy ordered;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l137" href="#l137">137</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l138" href="#l138">138</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">2/4</summary>
+            <div class="linebranchContents">
+              <div class="takenBranch">&check; Branch 1 taken 213 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+              <div class="takenBranch">&check; Branch 4 taken 213 times.</div>
+              <div class="notTakenBranch">&cross; Branch 5 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">213</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">        (std::for_each(certificates.begin(), certificates.end(),</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l139" href="#l139">139</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#if defined(__GNUC__) &amp;&amp; !defined(__clang__) &amp;&amp; (__GNUC__ &lt; 9)</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l140" href="#l140">140</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">                       [ordered_ptr = &amp;ordered](X509Wrapper&amp; cert) { ordered_ptr-&gt;insert(std::move(cert)); }),</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l141" href="#l141">141</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#else</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l142" href="#l142">142</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">1621</td>
+        <td class="src  coveredLine show_coveredLine">                       [&amp;ordered](X509Wrapper&amp; cert) { ordered.insert(std::move(cert)); }),</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l143" href="#l143">143</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">#endif</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l144" href="#l144">144</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">         ...); // Fold expr</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l145" href="#l145">145</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l146" href="#l146">146</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">        // Prune the tree</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l147" href="#l147">147</a></td>
+        <td class="linebranch">
+          <details class="linebranchDetails">
+            <summary class="linebranchSummary">1/2</summary>
+            <div class="linebranchContents">
+              <div class="takenBranch">&check; Branch 1 taken 213 times.</div>
+              <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+            </div>
+          </details>
+        </td>
+        <td class="linecount partialCoveredLine show_partialCoveredLine">213</td>
+        <td class="src  partialCoveredLine show_partialCoveredLine">        ordered.prune();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l148" href="#l148">148</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l149" href="#l149">149</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount coveredLine show_coveredLine">213</td>
+        <td class="src  coveredLine show_coveredLine">        return ordered;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l150" href="#l150">150</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    }</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l151" href="#l151">151</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l152" href="#l152">152</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">private:</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l153" href="#l153">153</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::optional&lt;std::pair&lt;const X509Node*, int&gt;&gt; find_certificate_root_node(const X509Wrapper&amp; leaf);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l154" href="#l154">154</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l155" href="#l155">155</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief Inserts the certificate in the hierarchy. If it is not a root</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l156" href="#l156">156</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// and a parent is not found, it will be inserted as a temporary orphan</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l157" href="#l157">157</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void insert(X509Wrapper&amp;&amp; certificate);</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l158" href="#l158">158</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l159" href="#l159">159</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// @brief After inserting all certificates in the hierarchy, attempts</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l160" href="#l160">160</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// to parent all temporarly orphan certificates, marking the ones that</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l161" href="#l161">161</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    /// were not successfully parented as permanently orphan</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l162" href="#l162">162</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    void prune();</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l163" href="#l163">163</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l164" href="#l164">164</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">    std::vector&lt;X509Node&gt; hierarchy;</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l165" href="#l165">165</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">};</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l166" href="#l166">166</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l167" href="#l167">167</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src ">} // namespace evse_security</td>
+      </tr>
+      <tr class="source-line">
+        <td class="lineno"><a id="l168" href="#l168">168</a></td>
+        <td class="linebranch">
+        </td>
+        <td class="linecount"></td>
+        <td class="src "></td>
+      </tr>
+    </table>
+  </div>
+</div>
+        </main>
+        <hr class="block-separator"/>
+        <footer class="text-center">
+          Created using <a href="http://gcovr.com/en/8.6">GCOVR (Version 8.6)</a>
+          at 2026-10-29 08:12:23
+        </footer>
+      </div>
+    </div>
+  </body>
+
+</html>
